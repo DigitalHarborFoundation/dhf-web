@@ -1,6 +1,6 @@
-# Code for America Annual Report
+# Code for STEM Core Website
 
-* View the [Code for America Annual Report](http://codeforamerica.github.com/annual/)
+* View the DHF [STEM Core](http://www.stemcore.com/) technology curriculum
 
 This site is build using jekyll. To run:
 
