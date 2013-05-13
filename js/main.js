@@ -1,40 +1,3 @@
-var cityLocations = [{
-    "geometry": { "type": "Point", "coordinates": [-75.162, 39.947]},
-    "properties": { "city": "philadelphia", "year": "2011" }
-},  {
-    "geometry": { "type": "Point", "coordinates": [-71.053, 42.352]},
-    "properties": { "city": "boston", "year": "2011" }
-}, {
-    "geometry": { "type": "Point", "coordinates": [-122.326, 47.604]},
-    "properties": { "city": "seattle", "year": "2011" }
-}, {
-    "geometry": { "type": "Point", "coordinates": [-122.4183, 37.7750]},
-    "properties": { "city": "sanfrancisco", "year":"2011" }
-}, {
-    "geometry": { "type": "Point", "coordinates": [-75.162, 39.947]},
-    "properties": { "city": "philadelphia", "year": "2012" }
-}, {
-    "geometry": { "type": "Point", "coordinates": [-83.6365, 32.8398]},
-    "properties": { "city": "macon", "year":"2012" }
-}, {
-    "geometry": { "type": "Point", "coordinates": [-122.0306, 36.9724]},
-    "properties": { "city": "santacruz", "year":"2012" }
-}, {
-    "geometry": { "type": "Point", "coordinates": [-87.655, 41.886]},
-    "properties": { "city": "chicago", "year":"2012" }
-}, {
-    "geometry": { "type": "Point", "coordinates": [-157.859, 21.305]},
-    "properties": { "city": "honolulu", "year":"2012" }
-},{
-    "geometry": { "type": "Point", "coordinates": [-90.087, 29.968]},
-    "properties": { "city": "neworleans", "year":"2012" }
-}, {
-    "geometry": { "type": "Point", "coordinates": [-97.756, 30.276]},
-    "properties": { "city": "austin", "year":"2012" }
-}, {
-    "geometry": { "type": "Point", "coordinates": [-83.059, 42.360]},
-    "properties": { "city": "detroit", "year":"2012" }
-}];
 
 var color2011 = "fedd44",
     color2012 = "C82A45";
@@ -45,7 +8,7 @@ if (typeof console === "undefined" || typeof console.log === "undefined") {
 
 $(function(){
   var readytoshow = false;
-  $('<img/>').attr('src', 'img/iphone.jpg').load(function() {
+  $('<img/>').attr('src', 'img/about.jpg').load(function() {
     if(readytoshow)
       $("#loading").fadeOut({duration:1000});
     readytoshow = true;
