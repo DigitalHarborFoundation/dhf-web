@@ -95,7 +95,7 @@ li {
 
 #loading{ 
   background-color:#0091c9;
-  background-image:url('/img/DHF-Anchor-Logo-white-transparent.png');
+  background-image:url('img/DHF-Anchor-Logo-white-transparent.png');
   background-position:center;
   background-repeat:no-repeat;
   position:fixed;
