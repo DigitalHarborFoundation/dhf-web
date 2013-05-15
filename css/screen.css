@@ -95,7 +95,7 @@ li {
 
 #loading{ 
   background-color:#0091c9;
-  background-image:url('img/DHF-Anchor-Logo-white-transparent.png');
+  background-image:url('../img/DHF-Anchor-Logo-white-transparent.png');
   background-position:center;
   background-repeat:no-repeat;
   position:fixed;
@@ -336,12 +336,12 @@ input[type="text"] {
 .pagebg.appear{ 
 
 }
+
 .pagebg.imageabout{ 
-  background: url("../img/about.jpg") no-repeat;
   background-size:contain;
   background-color:#0091c9;
   background-position:center;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/about.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
 }
 
 
