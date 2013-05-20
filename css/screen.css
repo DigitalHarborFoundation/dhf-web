@@ -338,10 +338,13 @@ input[type="text"] {
 }
 
 .pagebg.imageabout{ 
-  background-size:contain;
+  background: url("/img/8664271822_0b360afacf_n.jpg") no-repeat;
+  background-size:cover;
   background-color:#0091c9;
   background-position:center;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
+  opacity:0.4;
+  filter:alpha(opacity=40); /* For IE8 and earlier */
 }
 
 
