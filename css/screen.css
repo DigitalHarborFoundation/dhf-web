@@ -343,11 +343,36 @@ input[type="text"] {
   background-color:#0091c9;
   background-position:center;
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
-  opacity:0.4;
-  filter:alpha(opacity=40); /* For IE8 and earlier */
+  opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
 }
-
-
+.pagebg.imagemobile{ 
+  background: url("/img/mobileapp.jpg") no-repeat;
+  background-size:cover;
+  background-color:#0091c9;
+  background-position:center;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
+  opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+.pagebg.imagefab{ 
+  background: url("/img/fab.jpg") no-repeat;
+  background-size:cover;
+  background-color:#0091c9;
+  background-position:center;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
+  opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+.pagebg.overlay{ 
+  background: url("/img/black.png") repeat-x;
+  background-size:cover;
+  background-color:#0091c9;
+  background-position:center;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
+  opacity:0.2;
+  filter:alpha(opacity=100); /* For IE8 and earlier */
+}
 
 .pagebg img{ 
   min-width:100%;
