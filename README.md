@@ -1,17 +1,9 @@
-<<<<<<< HEAD
-# Code for STEM Core Website
+# Code for www.DigitalHarborFoundation.org
 
-* View the DHF [STEM Core](http://www.stemcore.com/) technology curriculum
-* New site DHF [STEM Core](http://digitalharborfoundation.github.io/stemcore)
+* View the [DHF Website](http://www.digitalharborfoundation.org/) 
+* New site [DHF Website](http://digitalharborfoundation.github.io/dhf-web)
 
-This site is build using jekyll. To run:
+This site is built using jekyll. To run:
 
 1. `sudo gem install jekyll`
-2. `jekyll --server --auto`
-
-=======
-dhf-web
-=======
-
-Digital Harbor Foundation website
->>>>>>> 4347d84c82fa07b5fe5e28fa10b50e100e419de1
+2. `jekyll serve --watch`
