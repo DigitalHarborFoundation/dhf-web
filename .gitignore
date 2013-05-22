@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 .DS_Store
 _site/*
 .s3cfg
+=======
+_site/
+>>>>>>> 4347d84c82fa07b5fe5e28fa10b50e100e419de1
