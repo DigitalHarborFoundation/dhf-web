@@ -1239,6 +1239,85 @@ padding-left: 20px;
 }
 
 
+.andrew,
+.shawn,
+.steph,
+.jean,
+.amber,
+.meaghan,
+.courtney,
+.dale,
+.VACANT,
+.ty,
+.martha,
+.lauren,
+.leah,
+.sarah {
+  background-image: url('../img/dhfstaff_headshot.jpg');
+  background-size: 100px;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 20px 20px 0 0;
+}
+
+.andrew {
+  background-position: 0 0;
+}
+
+.shawn {
+  background-position: 0 -100px
+}
+
+.steph {
+  background-position: 0 -200px;
+}
+
+.jean {
+  background-position: 0 -300px;
+}
+
+.amber {
+  background-position: 0 -400px;
+}
+
+.meaghan {
+  background-position: 0 -500px;
+}
+
+.courtney {
+  background-position: 0 -600px;
+}
+
+.dale {
+  background-position: 0 -700px;
+}
+
+.VACANT {
+  background-position: 0 -800px;
+}
+
+.ty {
+  background-position: 0 -900px;
+}
+
+.martha {
+  background-position: 0 -1000px;
+}
+
+.lauren {
+  background-position: 0 -1100px;
+}
+
+.leah {
+  background-position: 0 -1200px
+}
+
+.sarah {
+  background-position: 0 -1300px;
+}
+
+
 .morefellowspop.sean,
 .morefellowspop.josh,
 .morefellowspop.chris,
@@ -1263,7 +1342,7 @@ padding-left: 20px;
   background-position: 0 -100px;
 }
 
-.morefellowspop.chirs {
+.morefellowspop.chris {
   background-position: 0 -200px;
 }
 
@@ -1534,7 +1613,8 @@ img.progicons {
 .moreapps a:hover,
 .morefellows a:hover,
 .btrustee a:hover,
-.badvisors a:hover {
+.badvisors a:hover,
+.dhfstaff a:hover {
   border-bottom: none;
 }
 
@@ -1559,125 +1639,13 @@ img.progicons {
 .captains .popover-content,
 .morefellows .popover-content,
 .btrustee .popover-content,
-.badvisors .popover-content {
+.badvisors .popover-content,
+.dhfstaff .popover-content {
   font-weight: 300;
   font-style: italic;
   padding-top: 0px;
 }
 
-.jeff,
-.andrew,
-.bret,
-.burt,
-.chip,
-.chris,
-.chriswhit,
-.dave,
-.emma,
-.harlan,
-.jason,
-.jeff,
-.jon,
-.kevin,
-.michelle,
-.scott,
-.steve,
-.eddiet,
-.noel,
-.jasonl,
-.chase,
-.mevans {
-  background-image: url('../img/brigade_captains.jpg');
-  background-size: 100px;
-  float: left;
-  width: 100px;
-  height: 100px;
-  margin: 20px 20px 0 0;
-}
-
-.andrew {
-  background-position: 0 0px;
-}
-
-.bret {
-  background-position: 0 -100px;
-}
-
-.burt {
-  background-position: 0 -200px;
-}
-
-.chip {
-  background-position: 0 -300px;
-}
-
-.chris {
-  background-position: 0 -200px;
-}
-
-.chriswhit {
-  background-position: 0 -500px;
-}
-
-.dave {
-  background-position: 0 -600px;
-}
-
-.emma {
-  background-position: 0 -700px;
-}
-
-.harlan {
-  background-position: 0 -800px;
-}
-
-.jason {
-  background-position: 0 -900px;
-}
-
-.jeff {
-  background-position: 0 -1000px;
-}
-
-.jon {
-  background-position: 0 -1100px;
-}
-
-.kevin {
-  background-position: 0 -1200px;
-}
-
-.michelle {
-  background-position: 0 -1300px;
-}
-
-.scott {
-  background-position: 0 -1400px;
-}
-
-.steve {
-  background-position: 0 -1500px;
-}
-
-.eddiet {
-  background-position: 0 -1600px;
-}
-
-.noel {
-  background-position: 0 -1700px;
-}
-
-.jasonl {
-  background-position: 0 -1800px;
-}
-
-.chase {
-  background-position: 0 -1900px;
-}
-
-.mevans {
-  background-position: 0 -2000px;
-}
 
 .market h4 {
   margin-top: 40px;
@@ -1990,12 +1958,12 @@ img.progicons {
     top:0px;
   }
 
-  .fellowship .btrustee .badvisors .yeartitle {
+  .fellowship .btrustee .badvisors .dhfstaff .yeartitle {
     left: 30px;
   }
 
   .sidebartitle h1,
-  .fellowship .btrustee .badvisors .yeartitle h1 { 
+  .fellowship .btrustee .badvisors .dhfstaff .yeartitle h1 { 
     font-size: 60px;
   } 
 
@@ -2004,7 +1972,7 @@ img.progicons {
   }
 
   .sidebartitle h2,
-  .fellowship .btrustee .badvisors .yeartitle h2 { 
+  .fellowship .btrustee .badvisors .dhfstaff .yeartitle h2 { 
     font-size: 24px;
     line-height: 30px;
     margin-top: 20px;
