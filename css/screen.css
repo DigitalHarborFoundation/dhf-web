@@ -371,65 +371,65 @@ input[type="text"] {
 }
 
 .pagebg.imagemission{ 
-  background: url("/img/dhf-1.jpg") no-repeat;
+  background: url("../img/dhf-1.jpg") no-repeat;
   background-size:cover;
   background-color:#0091c9;
   background-position:center;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
   opacity:0.9;
   filter:alpha(opacity=90); /* For IE8 and earlier */
 }
 .pagebg.imageblog{ 
-  background: url("/img/dhf-2.jpg") no-repeat;
+  background: url("../img/dhf-2.jpg") no-repeat;
   background-size:cover;
   background-color:#0091c9;
   background-position:center;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
   opacity:0.9;
   filter:alpha(opacity=90); /* For IE8 and earlier */
 }
 .pagebg.imagetechcenter{ 
-  background: url("/img/dhf-3.jpg") no-repeat;
+  background: url("../img/dhf-3.jpg") no-repeat;
   background-size:cover;
   background-color:#0091c9;
   background-position:center;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
   opacity:0.6;
   filter:alpha(opacity=60); /* For IE8 and earlier */
 }
 .pagebg.imageteam{ 
-  background: url("/img/dhf-4.jpg") no-repeat;
+  background: url("../img/dhf-4.jpg") no-repeat;
   background-size:cover;
   background-color:#0091c9;
   background-position:center;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
   opacity:0.6;
   filter:alpha(opacity=60); /* For IE8 and earlier */
 }
 .pagebg.imagepress{ 
-  background: url("/img/dhf-5.jpg") no-repeat;
+  background: url("../img/dhf-5.jpg") no-repeat;
   background-size:cover;
   background-color:#0091c9;
   background-position:center;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
   opacity:0.6;
   filter:alpha(opacity=60); /* For IE8 and earlier */
 }
 .pagebg.imagecontact{ 
-  background: url("/img/dhf-6.jpg") no-repeat;
+  background: url("../img/dhf-6.jpg") no-repeat;
   background-size:cover;
   background-color:#0091c9;
   background-position:center;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
   opacity:0.6;
   filter:alpha(opacity=60); /* For IE8 and earlier */
 }
 .pagebg.overlay{ 
-  background: url("/img/black.png") repeat-x;
+  background: url("../img/black.png") repeat-x;
   background-size:cover;
   background-color:#0091c9;
   background-position:center;
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
   opacity:0.2;
   filter:alpha(opacity=100); /* For IE8 and earlier */
 }
