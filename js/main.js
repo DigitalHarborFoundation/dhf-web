@@ -8,7 +8,7 @@ if (typeof console === "undefined" || typeof console.log === "undefined") {
 
 $(function(){
   var readytoshow = false;
-  $('<img/>').attr('src', 'img/8664271822_0b360afacf_n.jpg').load(function() {
+  $('<img/>').attr('src', '../img/8664271822_0b360afacf_n.jpg').load(function() {
     if(readytoshow)
       $("#loading").fadeOut({duration:1000});
     readytoshow = true;
