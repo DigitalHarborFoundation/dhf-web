@@ -397,6 +397,15 @@ input[type="text"] {
   opacity:0.6;
   filter:alpha(opacity=60); /* For IE8 and earlier */
 }
+.pagebg.imagemakercamp{ 
+  background: url("/img/dhf-7.jpg") no-repeat;
+  background-size:cover;
+  background-color:#0091c9;
+  background-position:center;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/8664271822_0b360afacf_n.jpg', sizingMethod='scale')";
+  opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+}
 .pagebg.imageteam{ 
   background: url("../img/dhf-4.jpg") no-repeat;
   background-size:cover;
@@ -531,7 +540,7 @@ padding-left: 20px;
 
 .getinvolved {
   background: rgba(255, 255, 255, .75);
-  padding: 60px 80px;
+  padding: 50px 40px;
   max-width: 700px;
   color: #000;
   text-shadow: none;
@@ -2061,6 +2070,14 @@ img.progicons {
   .btn {
     margin: 6px 0 0;
   }
+  .sidebar { 
+    display:none;
+    width: 0px;
+  }
+  .page.story {
+    padding-left: 20px;
+  }
+
 }
 
  @media (max-width: 767px) {
@@ -2069,6 +2086,10 @@ img.progicons {
   .navbar-static-top {
     margin-right: 0px;
     margin-left: 0px;
+   }
+  .page.story img {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
